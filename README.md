@@ -1,2 +1,1 @@
-# GoodParts
-JavaScript Good Parts
+# JavaScript Good Parts
