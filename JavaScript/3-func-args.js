@@ -31,7 +31,7 @@ goods[8].price = 5;
 
 const output = goods.map((data) => {
   const item = normalizeItem({ data });
-  const price = getPrice({ item, options: { convert: false } });
+  const price = getPrice({ item });
   return { data, item, price };
 });
 console.table(output);

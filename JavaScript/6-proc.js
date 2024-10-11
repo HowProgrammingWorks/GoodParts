@@ -22,7 +22,7 @@ const fromStruct = (obj, options) => {
 const fromTuple = (tuple, options) => {
   const name = tuple[0];
   const price = tuple[1];
-  item(name, price, options);
+  return item(name, price, options);
 };
 
 const fromData = (data, options) => {

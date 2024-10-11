@@ -13,7 +13,6 @@
 class Item {
   constructor(name, price, options = { convert: true }) {
     const convert = options.convert && typeof price === 'string';
-    console.log({ name, price, options, convert });
     this.name = name;
     this.price = convert ? parseFloat(price) : price;
   }
